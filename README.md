@@ -1,6 +1,6 @@
 # Bootcamp Decola Tech Avade
 
-> Parceria oferecido por DIO e Avanade
+> Oferecido por DIO e Avanade
 > 
 
 <aside>
