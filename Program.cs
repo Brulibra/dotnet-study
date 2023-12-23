@@ -12,6 +12,7 @@ using dotnet_study.Models.ModuleTwo;
 People people = new();
 
 people.Name = "Bruna";
+people.Lastname = "";
 people.Age = 1;
 
 people.Present();

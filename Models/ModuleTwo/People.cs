@@ -14,7 +14,7 @@ namespace dotnet_study.Models.ModuleTwo
         private string _name;
         public string Name
         {
-            get => _name.ToUpper();
+            get => _name;
             //retorna o nome em caixa alta
 
             set
@@ -32,6 +32,11 @@ namespace dotnet_study.Models.ModuleTwo
 
 
         }
+        private string _lastname;
+        public string Lastname { get => _lastname; set => _lastname = value; }
+
+        public string Fullname => $"{Name} {Lastname}".ToUpper();
+
         private int _age;
         public int Age
         {
@@ -49,7 +54,7 @@ namespace dotnet_study.Models.ModuleTwo
 
         public void Present()
         {
-            Console.WriteLine($"Nome: {Name}, Idade: {Age}");
+            Console.WriteLine($"Nome: {Fullname}, Idade: {Age}");
         }
     }
 }
