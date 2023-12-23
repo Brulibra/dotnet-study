@@ -12,3 +12,4 @@
 /Users/bruli/Documents/Projetos/dotnet-study/obj/Debug/net8.0/dotnet-study.pdb
 /Users/bruli/Documents/Projetos/dotnet-study/obj/Debug/net8.0/dotnet-study.genruntimeconfig.cache
 /Users/bruli/Documents/Projetos/dotnet-study/obj/Debug/net8.0/ref/dotnet-study.dll
+/Users/bruli/Documents/Projetos/dotnet-study/obj/Debug/net8.0/dotnet-study.sourcelink.json
