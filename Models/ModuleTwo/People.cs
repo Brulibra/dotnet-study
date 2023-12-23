@@ -16,7 +16,7 @@ namespace dotnet_study.Models.ModuleTwo
         {
             get => _name.ToUpper();
             //retorna o nome em caixa alta
-            
+
             set
             {
                 if (value == "")
@@ -32,7 +32,20 @@ namespace dotnet_study.Models.ModuleTwo
 
 
         }
-        public int Age { get; set; }
+        private int _age;
+        public int Age
+        {
+            get => _age;
+
+            set
+            {
+                if (value <= 0)
+                {
+                    throw new ArgumentException("A idade não pode ser menor do que 0");
+                }
+                _age = value;
+            }
+        }
 
         public void Present()
         {
