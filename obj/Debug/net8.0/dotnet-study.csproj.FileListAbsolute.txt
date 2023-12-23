@@ -1,0 +1,14 @@
+/Users/bruli/Documents/Projetos/dotnet-study/bin/Debug/net8.0/dotnet-study
+/Users/bruli/Documents/Projetos/dotnet-study/bin/Debug/net8.0/dotnet-study.deps.json
+/Users/bruli/Documents/Projetos/dotnet-study/bin/Debug/net8.0/dotnet-study.runtimeconfig.json
+/Users/bruli/Documents/Projetos/dotnet-study/bin/Debug/net8.0/dotnet-study.dll
+/Users/bruli/Documents/Projetos/dotnet-study/bin/Debug/net8.0/dotnet-study.pdb
+/Users/bruli/Documents/Projetos/dotnet-study/obj/Debug/net8.0/dotnet-study.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bruli/Documents/Projetos/dotnet-study/obj/Debug/net8.0/dotnet-study.AssemblyInfoInputs.cache
+/Users/bruli/Documents/Projetos/dotnet-study/obj/Debug/net8.0/dotnet-study.AssemblyInfo.cs
+/Users/bruli/Documents/Projetos/dotnet-study/obj/Debug/net8.0/dotnet-study.csproj.CoreCompileInputs.cache
+/Users/bruli/Documents/Projetos/dotnet-study/obj/Debug/net8.0/dotnet-study.dll
+/Users/bruli/Documents/Projetos/dotnet-study/obj/Debug/net8.0/refint/dotnet-study.dll
+/Users/bruli/Documents/Projetos/dotnet-study/obj/Debug/net8.0/dotnet-study.pdb
+/Users/bruli/Documents/Projetos/dotnet-study/obj/Debug/net8.0/dotnet-study.genruntimeconfig.cache
+/Users/bruli/Documents/Projetos/dotnet-study/obj/Debug/net8.0/ref/dotnet-study.dll
