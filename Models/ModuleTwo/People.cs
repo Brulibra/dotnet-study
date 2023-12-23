@@ -14,13 +14,9 @@ namespace dotnet_study.Models.ModuleTwo
         private string _name;
         public string Name
         {
-            get
-
-            {
-                //retorna o nome em caixa alta
-                return _name.ToUpper();
-            }
-
+            get => _name.ToUpper();
+            //retorna o nome em caixa alta
+            
             set
             {
                 if (value == "")
