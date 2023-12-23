@@ -8,24 +8,17 @@ Executando aqui apenas o método que estivesse estudando.
 */
 
 using dotnet_study.Models.ModuleTwo;
-//Duas instândias da Classe Pessoa
-People people = new();
-People people2 = new();
+//Usando o construtor para passar o nome e sobrenome
+People people = new(name: "Bruna", lastname: "de Paula");
+People people2 = new(name: "Ana", lastname: "Prado");
 
 Course englishCourse = new();
-
-people.Name = "Bruna";
-people.Lastname = "de Paula";
-
-people2.Name = "Ana";
-people2.Lastname = "Prado";
 //----
 
-//Nova instancia da classe curso -> Inglês
 englishCourse.Name = "Inglês";
 englishCourse.Students = new List<People>();
-//Add pessoas/alunos
+
 englishCourse.AddStudent(people);
 englishCourse.AddStudent(people2);
-//lista alunos
+
 englishCourse.ListStudents();

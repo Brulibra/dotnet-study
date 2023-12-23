@@ -7,29 +7,35 @@ namespace dotnet_study.Models.ModuleTwo
 {
     public class People
     {
-        //O campo private irá guardar o valor do nome
-        //um dos pilares da OOP é proteger os atributos de modificações externas
-        //a não ser que eles passem por validações
+        /*características do construtor
+        - Tem o mesmo nome da Classe
+        - Não possue retorno
+        - É preciso atribuir valor à variável no construtor também
+        
+        NOTA: Caso os valores sejam passados depois,
+        é possível criar um 2º construtor.
+        Não há limites de construtores para uma classe
+        */
+        public People(string name, string lastname)
+        {
+            Name = name;
+            Lastname = lastname;
+        }
+        public People() { }
 
         private string _name;
         public string Name
         {
             get => _name;
-            //retorna o nome em caixa alta
 
             set
             {
                 if (value == "")
                 {
-                    throw new ArgumentException("Por favor, insira o nome")
-                    //caso caia na execão, o programa se encerra
-;
+                    throw new ArgumentException("Por favor, insira o nome");
                 }
-                //caso o valor esteja preenchido, salva no campo _name
                 _name = value;
             }
-
-
 
         }
         private string _lastname;
