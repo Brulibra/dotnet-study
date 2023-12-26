@@ -8,6 +8,13 @@ Executando aqui apenas o método que estivesse estudando.
 */
 
 using dotnet_study.Models.ModuleTwo;
-ValuesFormatter valuesFormatter = new(value: 82.40M);
+DateFormating dateFormating = new();
 
-valuesFormatter.CurrencyConverter();
+dateFormating.FullDateTime();
+
+dateFormating.ShortDate();
+
+dateFormating.OnlyDays();
+
+dateFormating.ParsingDates();
+
