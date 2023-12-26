@@ -6,4 +6,3 @@ e deixar o arquivo Program.cs limpo.
 
 Executando aqui apenas o método que estivesse estudando.
 */
-
