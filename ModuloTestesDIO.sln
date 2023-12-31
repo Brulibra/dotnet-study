@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetStudyTestes", "dotnetStudyTestes\dotnetStudyTestes.csproj", "{8BB14071-0847-4227-AB08-B93A964C9B82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-study", "dotnetStudy\dotnet-study.csproj", "{DC315E74-8551-40C5-A60B-33DC90F079F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BB14071-0847-4227-AB08-B93A964C9B82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB14071-0847-4227-AB08-B93A964C9B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB14071-0847-4227-AB08-B93A964C9B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB14071-0847-4227-AB08-B93A964C9B82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC315E74-8551-40C5-A60B-33DC90F079F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC315E74-8551-40C5-A60B-33DC90F079F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC315E74-8551-40C5-A60B-33DC90F079F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC315E74-8551-40C5-A60B-33DC90F079F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
